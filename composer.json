@@ -1,0 +1,44 @@
+{
+    "name": "loophp/psr-http-message-bridge-bundle",
+    "type": "symfony-bundle",
+    "description": "Register symfony/psr-http-message-bridge classes in your Symfony application.",
+    "keywords": [
+        "http",
+        "psr-7",
+        "psr-17",
+        "psr-http-message-bridge",
+        "symfony-bundle"
+    ],
+    "homepage": "http://github.com/loophp/psr-http-message-bridge-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pol Dellaiera",
+            "email": "pol.dellaiera@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.3",
+        "symfony/psr-http-message-bridge": "^1 || ^2"
+    },
+    "require-dev": {
+        "drupol/php-conventions": "^5",
+        "friends-of-phpspec/phpspec-code-coverage": "^6",
+        "infection/infection": "^0.23",
+        "infection/phpspec-adapter": "^0.1.1",
+        "phpspec/phpspec": "^7.1",
+        "symfony/framework-bundle": "^5.3",
+        "symfony/http-kernel": "^5.1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "loophp\\PsrHttpMessageBridgeBundle\\": "src/"
+        }
+    },
+    "scripts": {
+        "changelog-unreleased": "docker-compose run auto_changelog -c .auto-changelog -u",
+        "changelog-version": "docker-compose run auto_changelog -c .auto-changelog -v",
+        "grumphp": "./vendor/bin/grumphp run",
+        "phpspec": "./vendor/bin/phpspec run"
+    }
+}
