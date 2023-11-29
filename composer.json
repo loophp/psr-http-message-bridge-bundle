@@ -19,7 +19,7 @@
     "homepage": "http://github.com/loophp/psr-http-message-bridge-bundle",
     "require": {
         "php": ">= 7.3",
-        "symfony/psr-http-message-bridge": "^1 || ^2"
+        "symfony/psr-http-message-bridge": "^1 || ^2 || ^7"
     },
     "require-dev": {
         "drupol/php-conventions": "^5",
@@ -27,8 +27,8 @@
         "infection/infection": "^0.26",
         "infection/phpspec-adapter": "^0.2.0",
         "phpspec/phpspec": "^7.1",
-        "symfony/framework-bundle": "^6.0",
-        "symfony/http-kernel": "^6.0.0"
+        "symfony/framework-bundle": "^7.0",
+        "symfony/http-kernel": "^7.0.0"
     },
     "autoload": {
         "psr-4": {
