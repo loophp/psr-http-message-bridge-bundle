@@ -18,8 +18,8 @@
     ],
     "homepage": "http://github.com/loophp/psr-http-message-bridge-bundle",
     "require": {
-        "php": ">= 7.3",
-        "symfony/psr-http-message-bridge": "^1 || ^2"
+        "php": ">= 8.2",
+        "symfony/psr-http-message-bridge": "^7.1"
     },
     "require-dev": {
         "drupol/php-conventions": "^5",
