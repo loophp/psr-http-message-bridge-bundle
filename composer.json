@@ -18,17 +18,16 @@
     ],
     "homepage": "http://github.com/loophp/psr-http-message-bridge-bundle",
     "require": {
-        "php": ">= 8.2",
-        "symfony/psr-http-message-bridge": "^7.1"
+        "php": ">= 8.1",
+        "symfony/psr-http-message-bridge": "^6.4 || ^7"
     },
     "require-dev": {
-        "drupol/php-conventions": "^5",
+        "ext-pcov": "*",
+        "drupol/php-conventions": "^6",
         "friends-of-phpspec/phpspec-code-coverage": "^6",
-        "infection/infection": "^0.29",
-        "infection/phpspec-adapter": "^0.2.0",
-        "phpspec/phpspec": "^7.1",
-        "symfony/framework-bundle": "^6.0",
-        "symfony/http-kernel": "^6.0.0"
+        "phpspec/phpspec": "^7",
+        "symfony/framework-bundle": "^6.4 || ^7",
+        "symfony/http-kernel": "^6.4 || ^7"
     },
     "autoload": {
         "psr-4": {
@@ -37,15 +36,15 @@
     },
     "config": {
         "allow-plugins": {
+            "ergebnis/composer-normalize": true,
             "infection/extension-installer": true,
-            "phpstan/extension-installer": true,
             "phpro/grumphp": true,
-            "ergebnis/composer-normalize": true
+            "phpstan/extension-installer": true
         }
     },
     "scripts": {
-        "changelog-unreleased": "docker-compose run auto_changelog -c .auto-changelog -u",
-        "changelog-version": "docker-compose run auto_changelog -c .auto-changelog -v",
+        "changelog-unreleased": "auto-changelog -c .auto-changelog -u",
+        "changelog-version": "auto-changelog -c .auto-changelog -v",
         "grumphp": "./vendor/bin/grumphp run",
         "phpspec": "./vendor/bin/phpspec run"
     }

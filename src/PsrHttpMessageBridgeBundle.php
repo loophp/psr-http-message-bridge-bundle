@@ -11,6 +11,4 @@ namespace loophp\PsrHttpMessageBridgeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class PsrHttpMessageBridgeBundle extends Bundle
-{
-}
+final class PsrHttpMessageBridgeBundle extends Bundle {}

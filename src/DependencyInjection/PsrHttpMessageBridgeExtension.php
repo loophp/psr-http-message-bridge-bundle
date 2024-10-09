@@ -16,9 +16,6 @@ use Symfony\Component\DependencyInjection\Loader\PhpFileLoader;
 
 final class PsrHttpMessageBridgeExtension extends Extension
 {
-    /**
-     * @phpstan-ignore-next-line
-     */
     public function load(array $configs, ContainerBuilder $container): void
     {
         $loader = new PhpFileLoader(

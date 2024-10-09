@@ -1,13 +1,8 @@
 [![Latest Stable Version][latest stable version]][1]
  [![GitHub stars][github stars]][1]
  [![Total Downloads][total downloads]][1]
- [![GitHub Workflow Status][github workflow status]][2]
- [![Scrutinizer code quality][code quality]][3]
- [![Type Coverage][type coverage]][4]
- [![Code Coverage][code coverage]][3]
  [![License][license]][1]
  [![Donate!][donate github]][5]
- [![Donate!][donate paypal]][6]
 
 # PSR HTTP Message Bridge Bundle
 
