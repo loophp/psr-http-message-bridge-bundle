@@ -24,7 +24,7 @@
     "require-dev": {
         "ext-pcov": "*",
         "drupol/php-conventions": "^6",
-        "friends-of-phpspec/phpspec-code-coverage": "^6",
+        "friends-of-phpspec/phpspec-code-coverage": "^7",
         "phpspec/phpspec": "^7",
         "symfony/framework-bundle": "^6.4 || ^7 || ^8",
         "symfony/http-kernel": "^6.4 || ^7 || ^8"
