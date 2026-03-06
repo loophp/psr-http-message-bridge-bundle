@@ -18,14 +18,14 @@
     ],
     "homepage": "http://github.com/loophp/psr-http-message-bridge-bundle",
     "require": {
-        "php": ">= 8.1",
-        "symfony/psr-http-message-bridge": "^6.4 || ^7"
+        "php": ">= 8.4",
+        "symfony/psr-http-message-bridge": "^6.4 || ^7 || ^8"
     },
     "require-dev": {
         "ext-pcov": "*",
         "drupol/php-conventions": "^6",
-        "friends-of-phpspec/phpspec-code-coverage": "^6",
-        "phpspec/phpspec": "^7",
+        "friends-of-phpspec/phpspec-code-coverage": "^7",
+        "phpspec/phpspec": "^8",
         "symfony/framework-bundle": "^6.4 || ^7 || ^8",
         "symfony/http-kernel": "^6.4 || ^7 || ^8"
     },
